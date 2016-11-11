@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 html {
   text-size-adjust: 100%;
 }
@@ -5,4 +7,153 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  background-color: hsla(181, 0%, 9%, 0.46);
+}
+
+li {
+  list-style: none;
+  margin: 20px;
+}
+
+.header-class {
+  background-image: url(https://raw.githubusercontent.com/tiy-tpa-fee/fee-c6/master/assignments/portfolio/assets/space.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+
+.background-image {
+  width: auto;
+}
+
+div.about-me {
+  background-color: gray;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 80px;
+  position: relative;
+  opacity: 0.5;
+}
+
+div.about-me::after {
+  content: '';
+  background-image: url(https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/tri.png?raw=true);
+  opacity: 0.5;
+  height: 20px;
+  width: 20px;
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: 22px;
+  color: gray;
+}
+
+.header-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20%;
+}
+
+div img {
+  width: 300px;
+  height: 300px;
+  padding-left: 30%;
+}
+
+article {
+  background-color: #fff;
+  color: #333;
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+}
+
+article div {
+  padding: 1em;
+}
+
+article header {
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px 4px 0 0;
+  height: 70px;
+}
+
+.more {
+  background-color: hsl(200, 80%, 75%);
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  border: 1px solid hsl(207, 74%, 23%, 1);
+  border-radius: 4px;
+}
+
+.more:link,
+.more:visited {
+  color: white;
+  text-decoration: none;
+}
+
+article h3 {
+  margin-top: 0;
+}
+
+footer h4 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  border: solid;
+  justify-content: center;
+  list-style: none;
+}
+
+footer li {
+  display: flex;
+  list-style: none;
+  border: solid;
+  border-color: blue;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  color: white;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+footer i {
+  margin: 0.5%;
+}
+
+time {
+font-size: 0.7em;
 }
